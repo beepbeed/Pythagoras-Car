@@ -5,7 +5,11 @@
 
 # Design
 
+![Electrical diagram](Screenshot 2025-07-23 115251.png)
+
 <p>In order to reach our final product, we hope to integrate an array of sensors that work with a localization program onboard a Raspberry Pi 3. These various sensors on the car will  include ultrasonic sensors, load cells, photoresistors, IR sensors and a camera which will map out the general environment for the car while also allowing for obstacle detection.</p>
+
+![Pan tilt mechanism](Pythagoras.png)
 
 # Implementation
 
