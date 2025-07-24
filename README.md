@@ -7,13 +7,13 @@
 
 <p>In order to reach our final product, we hope to integrate an array of sensors that work with a localization program onboard a Raspberry Pi 3. These various sensors on the car will  include ultrasonic sensors, load cells, photoresistors, IR sensors and a camera which will map out the general environment for the car while also allowing for obstacle detection.</p>
 
-![Pan tilt mechanism](images/Pythagoras.png)
+![Pan tilt mechanism](docs/images/Pythagoras.png)
 
 # Implementation
 
 <p>To complete our objective, we will be using Python as our main coding language. With Python, we will be able to access various packages such as time, and motor which will help accomplish our goals. These packages work in tandem with the imbedded hardware on a Freenove PCB, along with a load cell and MPU added to the I2C communication pins (SCL and SDA) of the Pi.</p>
 
-![Electrical diagram](images/electricalDiagram.png)
+![Electrical diagram](docs/images/electricalDiagram.png)
 
 <p>Specifically, this project will make use of motor, the embedded time library, GPIO, I2C, Turtle, Infrared, and MPU packages in our code. We will be organizing our code within a variety of files, each one pertaining to some specific part of the robotic car and connected through imports. Most of our inputs will be run through Git Bash/Nano, which will be our main control scheme.</p>
 
