@@ -11,7 +11,7 @@
 
 # Implementation
 
-<p>To complete our objective, we will be using Python as our main coding language. With Python, we will be able to access various packages such as time, and motor which will help accomplish our goals. These packages work in tandem with the imbedded hardware on a Freenove PCB, along with a load cell and MPU added to the GPIOs of the Pi.</p>
+<p>To complete our objective, we will be using Python as our main coding language. With Python, we will be able to access various packages such as time, and motor which will help accomplish our goals. These packages work in tandem with the imbedded hardware on a Freenove PCB, along with a load cell and MPU added to the I2C communication pins (SCL and SDA) of the Pi.</p>
 
 ![Electrical diagram](images/electricalDiagram.png)
 
