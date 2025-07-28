@@ -15,15 +15,14 @@
 
 ![Electrical diagram](docs/images/electricalDiagram.png)
 
-<p>Specifically, this project will make use of motor, the embedded time library, GPIO, I2C, Turtle, Infrared, and MPU packages in our code. We will be organizing our code within a variety of files, each one pertaining to some specific part of the robotic car and connected through imports. Most of our inputs will be run through Git Bash/Nano, which will be our main control scheme.</p>
+<p>Specifically, this project will make use of motor, the embedded time library, GPIO, I2C, Infrared, and MPU packages, HX711 in our code. We will be organizing our code within a variety of files, each one pertaining to some specific part of the robotic car and connected through imports. Most of our inputs will be run through Git Bash/Nano, which will be our main control scheme.</p>
 
-
-> The methodology of our vehicle goes as follows:</p>
-> - The GPIO will be our primary way of automated movement. 
-> - We will use the camera module (infrared) as an “obstacle” detection mechanism. 
-> - The MPU will be the way we will track the movement and acceleration of the robot and store that data. 
-> - With the stored data, we will use Turtle to draw a map of the obstacle course, like a way of digital localization and see the path the robot took to complete it. 
-> 	- We will also use Turtle to draw the obstacles the camera module recognizes, so we can see if there are any walls obstructing the robot.
+The methodology of our vehicle goes as follows:</p>
+- The GPIO will be our primary way of automated movement. 
+- We will use the camera module (infrared) as an “obstacle” detection mechanism. 
+- The MPU will be the way we will track the movement and acceleration of the robot and store that data. 
+- With the stored data, we will use Turtle to draw a map of the obstacle course, like a way of digital localization and see the path the robot took to complete it. 
+  - We will also use Turtle to draw the obstacles the camera module recognizes, so we can see if there are any walls obstructing the robot.
 
 
 
