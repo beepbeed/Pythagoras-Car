@@ -27,6 +27,8 @@
 >  - [HX711](https://pypi.org/project/hx711/) by mpibpc_mroose
 >  - Ultrasonic (embedded)
 >  - Servo (embedded)
+>  - [Picamera2](https://github.com/raspberrypi/picamera2) by Raspberry Pi
+>  - [OpenCV](https://pypi.org/project/opencv-python/) by andrey.senyaev, asmorkalov, sergregory and skvark 
 
 The methodology of our vehicle goes as follows:</p>
 - The GPIO will be our primary way of automated movement. 
