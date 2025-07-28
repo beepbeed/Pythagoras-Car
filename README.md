@@ -17,7 +17,7 @@
 
 <p>Specifically, this project will make use of motor, the embedded time library, RPi.GPIO, I2C, Infrared, and MPU packages, HX711 in our code. We will be organizing our code within a variety of files, each one pertaining to some specific part of the robotic car and connected through imports. Most of our inputs will be run through Git Bash/Nano, which will be our main control scheme.</p>
 
-> The specific libraries necessary for operation are accesible below for download with a compatible Freenove robotic car kit:
+> The specific libraries necessary for operation are accesible below for download with a compatible Freenove smart car v3.0 kit:
 >  - [Motor](https://pypi.org/project/motor/) by 10gen
 >  - Time (embedded)
 >  - [RPi.GPIO](https://pypi.org/project/RPi.GPIO/) by croston
